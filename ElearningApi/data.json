@@ -1,0 +1,226 @@
+{
+    "users": [
+        {
+            "id": 1,
+            "last_name": "Smith",
+            "first_name": "John",
+            "email": "john.smith@example.com",
+            "password": "password123"
+        },
+        {
+            "id": 2,
+            "last_name": "Doe",
+            "first_name": "Jane",
+            "email": "jane.doe@example.com",
+            "password": "password456"
+        },
+        {
+            "id": 3,
+            "last_name": "Brown",
+            "first_name": "Charlie",
+            "email": "charlie.brown@example.com",
+            "password": "password789"
+        },
+        {
+            "id": 4,
+            "last_name": "Taylor",
+            "first_name": "Emily",
+            "email": "emily.taylor@example.com",
+            "password": "password101"
+        },
+        {
+            "id": 5,
+            "last_name": "Wilson",
+            "first_name": "Michael",
+            "email": "michael.wilson@example.com",
+            "password": "password202"
+        }
+    ],
+    "courses": [
+        {
+            "id": 1,
+            "title": "Introduction to Python",
+            "description": "This course provides an in-depth introduction to Python, covering everything from basic syntax to more advanced topics like data structures and algorithms. You'll gain a solid foundation to build your programming skills. By the end of this course, you'll be able to write efficient and readable Python code for a variety of applications, including data analysis and web development."
+        },
+        {
+            "id": 2,
+            "title": "Web Development Basics",
+            "description": "A comprehensive introduction to web development using HTML, CSS, and JavaScript. This course covers essential concepts needed to build and style modern, responsive websites. You will understand how these technologies work together to create interactive and user-friendly experiences on the web. By the end, you'll have built a simple yet fully functional website."
+        },
+        {
+            "id": 3,
+            "title": "Data Science Fundamentals",
+            "description": "An essential guide to foundational skills in data science. This course covers everything from data cleaning and analysis to visualization techniques and machine learning basics. Ideal for beginners, it provides a practical understanding of how to work with real-world datasets, preparing you for a career in data science or analytics."
+        },
+        {
+            "id": 4,
+            "title": "Advanced Python Programming",
+            "description": "This course builds on basic Python knowledge and explores more advanced topics such as decorators, generators, context managers, and multi-threading. By the end of the course, you'll be able to create efficient and scalable Python applications."
+        },
+        {
+            "id": 5,
+            "title": "Full Stack Web Development",
+            "description": "Learn to develop both the front-end and back-end of web applications. This course covers advanced JavaScript frameworks like React and Node.js, and you'll learn how to integrate databases such as MongoDB. By the end, you'll have a fully functioning web application."
+        }
+    ],
+    "lessons": [
+        {
+            "id": 1,
+            "course_id": 1,
+            "title": "Getting Started with Python",
+            "content": "Python was created in 1991 by Guido van Rossum and has since become one of the most popular programming languages. To begin, install Python from the official Python website. Next, set up an Integrated Development Environment (IDE) such as PyCharm or Visual Studio Code to write and execute Python scripts. Write your first program: 'print(\"Hello, World!\")'. This simple script demonstrates Python's straightforward syntax. Experiment by replacing 'Hello, World!' with your own message and run the script to see the output."
+        },
+        {
+            "id": 2,
+            "course_id": 1,
+            "title": "Variables and Data Types",
+            "content": "Variables in Python are used to store data. For example, 'x = 10' assigns the integer 10 to the variable x. Python supports several data types such as integers, floats (decimal numbers), strings (text), and booleans (True/False). Try this: 'name = \"Alice\"; age = 25; is_student = True'. Use the 'type()' function to check the data type of each variable. Practice creating variables of different types and performing operations on them, such as concatenating strings or adding numbers."
+        },
+        {
+            "id": 3,
+            "course_id": 1,
+            "title": "Control Structures",
+            "content": "Control structures allow you to dictate the flow of your program. Use 'if' statements to make decisions: 'if age >= 18: print(\"Adult\")'. Loops like 'for' and 'while' allow repeated actions. For example: 'for i in range(5): print(i)' prints numbers 0 through 4. Try writing a program that asks the user for a number and prints whether it's even or odd using an 'if' statement and a modulo operation."
+        },
+        {
+            "id": 4,
+            "course_id": 2,
+            "title": "Understanding HTML",
+            "content": "HTML (HyperText Markup Language) structures web pages using elements like headings (<h1> to <h6>), paragraphs (<p>), and lists (<ul>, <ol>). Start by creating a simple HTML file: '<html><head><title>My Page</title></head><body><h1>Welcome</h1><p>This is my first webpage.</p></body></html>'. Save the file with a .html extension and open it in a browser. Practice adding images, links, and tables to your page."
+        },
+        {
+            "id": 5,
+            "course_id": 2,
+            "title": "Styling with CSS",
+            "content": "CSS (Cascading Style Sheets) controls the appearance of HTML. Create a stylesheet and link it to your HTML using '<link rel=\"stylesheet\" href=\"styles.css\">'. Use selectors to target elements: 'body { background-color: lightblue; } h1 { color: navy; }'. Experiment with layouts using Flexbox: 'display: flex; justify-content: center; align-items: center;'. Create a responsive webpage by defining styles for different screen sizes with media queries."
+        },
+        {
+            "id": 6,
+            "course_id": 2,
+            "title": "Introduction to JavaScript",
+            "content": "JavaScript adds interactivity to web pages. Embed JavaScript in your HTML: '<script>alert(\"Welcome!\");</script>'. Learn to declare variables (let, const) and create functions: 'function greet() { alert(\"Hello, User!\"); }'. Respond to user actions by adding event listeners: 'document.querySelector(\"button\").addEventListener(\"click\", greet);'. Create a project where clicking a button changes the text of a paragraph."
+        },
+        {
+            "id": 7,
+            "course_id": 3,
+            "title": "Introduction to Data Science",
+            "content": "Data science involves extracting insights from data. Tools like Python and libraries such as Pandas and NumPy are essential. Practice loading a dataset: 'import pandas as pd; data = pd.read_csv(\"data.csv\")'. Explore the dataset with 'data.head()'. Try analyzing simple trends, such as finding the mean or maximum of a column."
+        },
+        {
+            "id": 8,
+            "course_id": 3,
+            "title": "Data Cleaning",
+            "content": "Cleaning data involves handling missing or inconsistent entries. Use Pandas to fill missing values: 'data.fillna(0, inplace=True)'. Remove duplicates with 'data.drop_duplicates()'. Normalize data by scaling numeric columns: 'from sklearn.preprocessing import MinMaxScaler; scaler = MinMaxScaler(); scaled_data = scaler.fit_transform(data)'. Practice cleaning a sample dataset and note how it improves analysis."
+        },
+        {
+            "id": 9,
+            "course_id": 3,
+            "title": "Data Visualization",
+            "content": "Data visualization is essential in data science. Use libraries like Matplotlib and Seaborn to create graphs. Practice by plotting data: 'import matplotlib.pyplot as plt; plt.plot(data['column']); plt.show()'. Create various plots such as line charts, bar charts, and scatter plots."
+        },
+        {
+            "id": 10,
+            "course_id": 4,
+            "title": "Decorators and Generators",
+            "content": "In Python, decorators are a powerful tool to modify the behavior of a function or class. Learn how to create and use decorators. Then explore generators, which allow you to iterate through large datasets efficiently. Practice writing your own decorator and generator."
+        },
+        {
+            "id": 11,
+            "course_id": 4,
+            "title": "Multithreading and Concurrency",
+            "content": "Learn the basics of multi-threading in Python. Understand how to manage tasks concurrently using threading and multiprocessing modules. Practice writing programs that perform tasks in parallel to improve efficiency and reduce execution time."
+        },
+        {
+            "id": 12,
+            "course_id": 5,
+            "title": "Introduction to React",
+            "content": "Learn the fundamentals of React, a popular JavaScript library for building user interfaces. You'll understand how to create components, manage state, and use props. By the end of the lesson, you will have built your first React app."
+        },
+        {
+            "id": 13,
+            "course_id": 5,
+            "title": "Working with Node.js",
+            "content": "Node.js allows you to build scalable and fast web servers using JavaScript. Learn how to create a server using Express.js and connect it to a MongoDB database. You'll also learn how to handle HTTP requests and responses."
+        },
+        {
+            "id": 14,
+            "course_id": 5,
+            "title": "Full Stack Development Project",
+            "content": "In this lesson, you will integrate your front-end React app with your back-end Node.js server to create a full stack web application. Learn how to manage user authentication, store data in a database, and deploy your application."
+        }
+    ],
+    "progress": [
+        {
+            "user_id": 1,
+            "course_id": 1,
+            "lesson_id": 1,
+            "status": "done"
+        },
+        {
+            "user_id": 1,
+            "course_id": 1,
+            "lesson_id": 2,
+            "status": "on-going"
+        },
+        {
+            "user_id": 2,
+            "course_id": 2,
+            "lesson_id": 4,
+            "status": "done"
+        },
+        {
+            "user_id": 3,
+            "course_id": 3,
+            "lesson_id": 8,
+            "status": "done"
+        },
+        {
+            "user_id": 3,
+            "course_id": 3,
+            "lesson_id": 9,
+            "status": "done"
+        },
+        {
+            "user_id": 3,
+            "course_id": 3,
+            "lesson_id": 7,
+            "status": "on-going"
+        },
+        {
+            "user_id": 4,
+            "course_id": 1,
+            "lesson_id": 1,
+            "status": "on-going"
+        },
+        {
+            "user_id": 5,
+            "course_id": 2,
+            "lesson_id": 4,
+            "status": "done"
+        },
+        {
+            "user_id": 5,
+            "course_id": 2,
+            "lesson_id": 5,
+            "status": "done"
+        },
+        {
+            "user_id": 5,
+            "course_id": 2,
+            "lesson_id": 6,
+            "status": "done"
+        },
+        {
+            "user_id": 5,
+            "course_id": 5,
+            "lesson_id": 12,
+            "status": "done"
+        },
+        {
+            "user_id": 5,
+            "course_id": 5,
+            "lesson_id": 13,
+            "status": "done"
+        }
+    ]
+}
