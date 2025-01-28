@@ -154,73 +154,73 @@
             "user_id": 1,
             "course_id": 1,
             "lesson_id": 1,
-            "status": "done"
+            "status": "Completed"
         },
         {
             "user_id": 1,
             "course_id": 1,
             "lesson_id": 2,
-            "status": "on-going"
+            "status": "In-progress"
         },
         {
             "user_id": 2,
             "course_id": 2,
             "lesson_id": 4,
-            "status": "done"
+            "status": "Completed"
         },
         {
             "user_id": 3,
             "course_id": 3,
             "lesson_id": 8,
-            "status": "done"
+            "status": "Completed"
         },
         {
             "user_id": 3,
             "course_id": 3,
             "lesson_id": 9,
-            "status": "done"
+            "status": "Completed"
         },
         {
             "user_id": 3,
             "course_id": 3,
             "lesson_id": 7,
-            "status": "on-going"
+            "status": "In-progress"
         },
         {
             "user_id": 4,
             "course_id": 1,
             "lesson_id": 1,
-            "status": "on-going"
+            "status": "In-progress"
         },
         {
             "user_id": 5,
             "course_id": 2,
             "lesson_id": 4,
-            "status": "done"
+            "status": "Completed"
         },
         {
             "user_id": 5,
             "course_id": 2,
             "lesson_id": 5,
-            "status": "done"
+            "status": "Completed"
         },
         {
             "user_id": 5,
             "course_id": 2,
             "lesson_id": 6,
-            "status": "done"
+            "status": "Completed"
         },
         {
             "user_id": 5,
             "course_id": 5,
             "lesson_id": 12,
-            "status": "done"
+            "status": "Completed"
         },
         {
             "user_id": 5,
             "course_id": 5,
             "lesson_id": 13,
-            "status": "done"
+            "status": "Completed"
         }
     ]
 }

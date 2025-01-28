@@ -71,10 +71,10 @@ app.get("/login", (req, res) => {
                 user.email === req.query.email &&
                 user.password === req.query.password
             ) {
-                res.json(true);
+                res.json({ success: true });
             }
         });
-        res.json(false);
+        res.json({ success: false });
     } else {
         res.json("Veuillez saisir votre email et votre mot de passe");
     }
