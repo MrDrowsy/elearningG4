@@ -122,6 +122,9 @@ Bienvenue sur l'API d'e-learning G4 ! Ce fichier README vous guidera à travers 
 
 ```json
 {
+    "id": 5,
+    "prenom": "Jean",
+    "nom": "Dupont",
     "success": true
 }
 ```

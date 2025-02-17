@@ -71,7 +71,12 @@ app.get("/login", (req, res) => {
                 user.email === req.query.email &&
                 user.password === req.query.password
             ) {
-                res.json({ success: true });
+                res.json({
+                    id: user.id,
+                    prenom: user.first_name,
+                    nom: user.last_name,
+                    success: true,
+                });
             }
         });
         res.json({ success: false });
